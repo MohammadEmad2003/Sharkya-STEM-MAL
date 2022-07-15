@@ -1,0 +1,115 @@
+/*import icons fonts*/
+@font-face {
+  font-family: "icomoon";
+  src: url("fonts/icomoon.eot?e549wh");
+  src: url("fonts/icomoon.eot?e549wh#iefix") format("embedded-opentype"),
+    url("fonts/icomoon.ttf?e549wh") format("truetype"),
+    url("fonts/icomoon.woff?e549wh") format("woff"),
+    url("fonts/icomoon.svg?e549wh#icomoon") format("svg");
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+[class^="icon-"],
+[class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: "icomoon" !important;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-facebook:before {
+  content: "\ea90";
+}
+.icon-instagram:before {
+  content: "\ea92";
+}
+.icon-whatsapp:before {
+  content: "\ea93";
+}
+.icon-linkedin2:before {
+  content: "\eaca";
+}
+/*start the design*/
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+footer {
+  margin-top: 70px;
+  padding-top: 20px;
+  vertical-align: center;
+  background-color: black;
+  height: 150px;
+}
+.contact-us .contact-title {
+  color: rgb(214, 214, 214);
+  margin-left: 25px;
+}
+.contact-us ul {
+  list-style-type: none;
+}
+.contact-us ul li {
+  cursor: pointer;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  margin: 2px;
+  transition: all ease-in-out 0.3s;
+  background-color: white;
+}
+.contact-us ul li a {
+  font-size: 1.4rem;
+  color: black;
+  text-decoration: none;
+}
+.contact-us ul li:hover {
+  transform: translate(0, -10%);
+}
+.contact-us ul li:hover span {
+  color: white;
+}
+.contact-us ul li:nth-of-type(1):hover {
+  background: #f09433;
+  background: -moz-linear-gradient(
+    45deg,
+    #f09433 0%,
+    #e6683c 25%,
+    #dc2743 50%,
+    #cc2366 75%,
+    #bc1888 100%
+  );
+  background: -webkit-linear-gradient(
+    45deg,
+    #f09433 0%,
+    #e6683c 25%,
+    #dc2743 50%,
+    #cc2366 75%,
+    #bc1888 100%
+  );
+  background: linear-gradient(
+    45deg,
+    #f09433 0%,
+    #e6683c 25%,
+    #dc2743 50%,
+    #cc2366 75%,
+    #bc1888 100%
+  );
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f09433', endColorstr='#bc1888',GradientType=1 );
+}
+.contact-us ul li:nth-of-type(2):hover {
+  background-color: #4267b2;
+}
+.contact-us ul li:nth-of-type(3):hover {
+  background-color: #0077b5;
+}
+.contact-us ul li:nth-of-type(4):hover {
+  background-color: #25d366;
+}
+.contact-us ul li a {
+  margin-bottom: 7px;
+}
